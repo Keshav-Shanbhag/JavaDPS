@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class DatabaseDemo {
   public static void main(String[] args) throws SQLException
   {
-	  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/company","root", "Suviksha1997@");
+	  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/company","root", "root");
 	  Statement s=con.createStatement();
 	  Scanner scan=new Scanner(System.in);
 	  int ch;
